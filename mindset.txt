@@ -1,0 +1,28 @@
+/portfolio-website/
+│
+├── /assets/                # Thư mục chứa các tài nguyên tĩnh (ảnh, font, video, ...)
+│   ├── /images/            # Thư mục chứa hình ảnh
+│   │   ├── profile.jpg     # Ảnh hồ sơ (avatar)
+│   │   ├── project1.jpg    # Ảnh dự án 1
+│   │   └── ...             # Các hình ảnh khác
+│   ├── /fonts/             # Thư mục chứa font chữ tùy chỉnh
+│   │   └── custom-font.ttf # Font chữ tùy chỉnh
+│   └── /videos/            # Thư mục chứa video (nếu có)
+│
+├── /css/                   # Thư mục chứa các tệp CSS
+│   ├── style.css           # CSS chính cho website
+│   └── responsive.css      # CSS để làm website responsive
+│
+├── /js/                    # Thư mục chứa các tệp JavaScript
+│   ├── main.js             # JavaScript chính của website
+│   └── ...                 # Các tệp JavaScript khác
+│
+├── /projects/              # Thư mục chứa các dự án (hoặc các trang con liên quan đến từng dự án)
+│   ├── project1.html       # Trang chi tiết dự án 1
+│   ├── project2.html       # Trang chi tiết dự án 2
+│   └── ...                 # Các dự án khác
+│
+├── index.html              # Trang chủ của portfolio
+├── about.html              # Trang giới thiệu bản thân
+├── contact.html            # Trang liên hệ
+└── README.md               # Tệp hướng dẫn hoặc thông tin về dự án
