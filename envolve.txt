@@ -1,0 +1,44 @@
+/portfolio-website/
+│
+├── /config/                   # Thư mục chứa các cấu hình của server
+│   └── config.js              # Tệp cấu hình chính (ví dụ: cài đặt cơ sở dữ liệu)
+│
+├── /controllers/              # Thư mục chứa các controller (điều khiển)
+│   ├── projectController.js   # Controller để xử lý các logic liên quan đến dự án
+│   └── userController.js      # Controller để xử lý các logic liên quan đến người dùng
+│
+├── /models/                   # Thư mục chứa các mô hình dữ liệu (Models)
+│   ├── Project.js             # Mô hình cho dự án
+│   └── User.js                # Mô hình cho người dùng
+│
+├── /routes/                   # Thư mục chứa các route (định tuyến)
+│   ├── projectRoutes.js       # Route cho các dự án
+│   └── userRoutes.js          # Route cho người dùng
+│
+├── /views/                    # Thư mục chứa các template cho giao diện người dùng (EJS, Pug, ...)
+│   ├── /partials/             # Thư mục chứa các phần giao diện dùng chung (header, footer, ...)
+│   │   ├── header.ejs         # Phần đầu trang
+│   │   └── footer.ejs         # Phần chân trang
+│   ├── index.ejs              # Trang chủ
+│   ├── about.ejs              # Trang giới thiệu
+│   ├── contact.ejs            # Trang liên hệ
+│   ├── projects.ejs           # Trang hiển thị danh sách dự án
+│   └── projectDetail.ejs      # Trang chi tiết một dự án cụ thể
+│
+├── /public/                   # Thư mục chứa các tài nguyên tĩnh
+│   ├── /css/                  # Thư mục chứa các tệp CSS
+│   │   └── style.css          # CSS chính
+│   ├── /js/                   # Thư mục chứa các tệp JavaScript
+│   │   └── main.js            # JavaScript chính
+│   ├── /images/               # Thư mục chứa hình ảnh
+│   │   ├── profile.jpg        # Ảnh hồ sơ
+│   │   └── project1.jpg       # Ảnh dự án
+│   └── /fonts/                # Thư mục chứa font chữ tùy chỉnh
+│
+├── /node_modules/             # Thư mục chứa các package của Node.js (tự động tạo bởi npm)
+│
+├── .env                       # Tệp cấu hình các biến môi trường (ví dụ: API keys, thông tin database)
+├── .gitignore                 # Tệp cấu hình bỏ qua các tệp/thư mục khi commit lên Git
+├── app.js                     # Tệp chính để khởi chạy server với Express
+├── package.json               # Tệp khai báo các package phụ thuộc và script của dự án
+└── README.md                  # Tệp hướng dẫn hoặc thông tin về dự án
